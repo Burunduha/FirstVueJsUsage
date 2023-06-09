@@ -15,7 +15,7 @@
     <ol id="task-list" v-show="showTasks">
       <li v-for="task in tasks" :key="task.id">
         <span>{{ task.text }}</span>
-        <button @click="deleteTask(task.id)" class="btn btn-danger rounded-pill mx-2">Удалить</button>
+        <button @click="deleteTask(task.id)" class="btn btn-danger rounded-pill my-1 mx-2">Удалить</button>
       </li>
     </ol>
   </div>
